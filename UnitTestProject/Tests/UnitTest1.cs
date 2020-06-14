@@ -11,7 +11,7 @@ namespace UnitTestProject.Tests
         public void TestMethod1()
         {
             BanerNavigation navigation = new BanerNavigation(Driver);
-            navigation.GoToSignInPage();
+           var signInPage = navigation.GoToSignInPage();
             Assert.AreEqual(Driver.Title, "Login - My Store");
 
         }

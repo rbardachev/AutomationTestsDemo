@@ -7,5 +7,7 @@ namespace UnitTestProject.PageObjects
     {
         public SignInPage(IWebDriver driver) : base(driver)
         { }
+        //Page locators
+
     }
 }
